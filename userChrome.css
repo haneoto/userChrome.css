@@ -1,0 +1,16 @@
+﻿/* 书签工具栏内的书签（文件夹除外）只显示图标 */
+#PersonalToolbar .bookmark-item:not([container="true"]) .toolbarbutton-text {
+    display: none !important;
+}
+
+/* 书签图标大小 */
+#PersonalToolbar .bookmark-item:not([container="true"]) .toolbarbutton-icon, 
+#PersonalToolbar .bookmark-item[container="true"] .toolbarbutton-icon {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* 书签图标间距 */
+#PersonalToolbar .bookmark-item:not([container="true"]) {
+    padding-inline: 3px !important;
+}
